@@ -1,0 +1,50 @@
+.container{
+    border: 1px solid black;
+    display: grid;
+    grid-gap: 10px;
+    text-align: center;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-template-areas:
+    "content1 content1 content1 content1"
+    "content2 content3 content3 content4"
+    "content5 content3 content3 content6"
+    "content5 content7 content7 content7";
+    height: 100vh;
+}
+#content1 {
+    background-color: rgb(249, 219, 87);
+    padding: 10px;
+    grid-area: content1;
+
+}
+#content2 {
+    background-color: rgb(219, 87, 249);
+    padding: 10px;
+    grid-area: content2;
+}
+#content3 {
+    background-color: rgb(249, 219, 87);;
+    padding: 10px;
+    grid-area: content3;
+}
+#content4 {
+    background-color: rgb(219, 87, 249);
+    padding: 10px;
+    grid-area: content4;
+}
+#content5 {
+    background-color: rgb(249, 219, 87);
+    padding: 10px;
+    grid-area: content5;
+}
+#content6 {
+    background-color: rgb(219, 87, 249);
+    padding: 10px;
+    grid-area: content6;
+}
+#content7 {
+    background-color: rgb(249, 219, 87);
+    padding: 10px;
+    grid-area: content7;
+} 

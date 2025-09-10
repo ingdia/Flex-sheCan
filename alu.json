@@ -1,0 +1,15 @@
+{
+  "trip_id": 205,
+  "rider": {
+    "rider_id": "15",
+    "rider_name": "Charles"
+  },
+  "passenger": {
+    "passenger_id": "P456",
+    "passenger_name": "Diane"
+  },
+  "fare": 1000,
+  "tax": 200,
+  "startLocation": "Downtown",
+  "endLocation": "Nyabugogo"
+}
